@@ -50,7 +50,7 @@ const App = () => {
         )}
         {weather && <WeatherCard weather={weather} />}
         {forecast && (
-          <h3 className="text 2xl font-semibold my-8 uppercase ">
+          <h3 className="text-xl font-semibold my-8 uppercase ">
             5 day Forecast
           </h3>
         )}

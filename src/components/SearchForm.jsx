@@ -5,7 +5,7 @@ const SearchForm = ({ onSearch }) => {
   return (
     <div className="flex items-center justify-between gap-4 mt-4 ">
       <input
-        className="border border-slate-600 rounded-lg py-2 px-4 flex-1 text-white "
+        className="bg-slate-800 border border-slate-600 rounded-lg py-2 px-4 flex-1 text-white "
         type="text"
         value={city}
         onChange={(e) => setCity(e.target.value)}

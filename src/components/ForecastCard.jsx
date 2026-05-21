@@ -36,7 +36,6 @@ const ForecastCard = ({ forecast }) => {
       </div>
     );
   });
-  console.log(dailyForecastList);
   return <>{dailyForecast}</>;
 };
 

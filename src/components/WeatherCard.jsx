@@ -2,9 +2,7 @@ const WeatherCard = ({ weather }) => {
   return (
     <>
       <div className=" mt-10 rounded-lg p-5 mb-1.5 border border-slate-600 bg-gray-800">
-        <h2 className=" text-2xl font-medium mb-1">
-          City Name: {weather.name}
-        </h2>
+        <h2 className=" text-2xl font-medium mb-1">{weather.name}</h2>
         <p className="mb-4 text-gray-400 capitalize">
           {weather.weather[0].description}
         </p>
